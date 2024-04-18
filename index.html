@@ -1,18 +1,184 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Alban Pirraud - Web Dev</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <title>Alban Pirraud - Développeur </title>
 </head>
 
-<body>
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://github.com/Arripal" class="link strong-text header__link">AP.</a>
+    </h3>
 
+    <nav class="nav center">
+      <ul class="nav__list center">
+
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#services">Services</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Mes Projets</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+        <li class="nav__list-item"> <a href="https://github.com/Arripal" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a></li>
+      </ul>
+
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about">
+      <h1 class="about__title">Bienvenue à vous, je suis<span class="about__name strong-text"> Alban Pirraud,</span>
+      </h1>
+      <h2 class="about__role">Développeur web junior.</h2>
+      <p class="about__desc">
+        Consectetur neque sed quam molestiae consectetur nesciunt sit alias
+        Vitae libero perferendis reprehenderit optio veritatis Accusantium at
+        voluptatum cumque temporibus et Explicabo iste porro quis numquam
+        distinctio Repellendus adipisci nam perferendis amet eaque hic
+        Voluptates
+      </p>
+
+      <div class="about__contact center">
+        <a href="#contact">
+          <span class="btn btn--outline">Me contacter</span>
+        </a>
+      </div>
+    </div>
+    <!-- Services -->
+    <section class="section services center" id="services">
+      <h2 class="section__title">Services</h2>
+      <ul class="services__list">
+        <li class=" services__list-item ">
+          <div class="card">
+            <h3>Frontend</h3>
+            <p class="card__description">Réalisations de sites, debuggage et optimisation Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Quod eaque officiis repudiandae neque, ducimus earum ea veniam iusto.
+              Veniam, quas quia! Ratione est facere laudantium nemo modi necessitatibus corporis aspernatur.</p>
+          </div>
+        </li>
+        <li class=" services__list-item ">
+          <div class="card">
+            <h3>Backend</h3>
+            <p class="card__description">Réalisations de sites, debuggage et optimisation Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. In perspiciatis fugiat et neque consequatur ad, incidunt deserunt tempore ab
+              tenetur. Est doloremque dolorem in corporis facilis voluptatem similique, quis corrupti.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="section projects center">
+      <h2 class="section__title">Projets</h2>
+
+      <div class="card__grid">
+        <div class="card">
+          <h3>Project 1</h3>
+          <p class="card__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="card__stack">
+            <li class="card__stack-item">SASS</li>
+            <li class="card__stack-item">TypeScript</li>
+            <li class="card__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="#" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Project 2</h3>
+          <p class="card__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="card__stack">
+            <li class="card__stack-item">SASS</li>
+            <li class="card__stack-item">TypeScript</li>
+            <li class="card__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="#" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Project 3</h3>
+          <p class="card__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="card__stack">
+            <li class="card__stack-item">SASS</li>
+            <li class="card__stack-item">TypeScript</li>
+            <li class="card__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:albanp.dev@gmail.com">
+        <span class="btn btn--outline">Email</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/rajshekhar26/cleanfolio-minimal" class="link footer__link">
+      Créé par Alban Pirraud
+    </a>
+  </footer>
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+  <script src="./assets/index.js"></script>
 </body>
 
 </html>
