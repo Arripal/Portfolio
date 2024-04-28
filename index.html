@@ -10,20 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/styles.css" />
-  <title>Alban Pirraud - Développeur </title>
+  <title>Alban Pirraud - Développeur Web </title>
 </head>
 
 <body class="light" id="top">
   <header class="header center">
+    <!-- Remplacer par logo ou initials stylisés -->
     <h3>
-      <a href="https://github.com/Arripal" class="link strong-text header__link">AP.</a>
+      <a href="https://github.com/Arripal" class="link strong-text header__link">Accueil</a>
     </h3>
 
     <nav class="nav center">
       <ul class="nav__list center">
 
         <li class="nav__list-item">
-          <a class="link link--nav" href="#services">Services</a>
+          <a class="link link--nav" href="#services">Savoir Faire</a>
         </li>
         <li class="nav__list-item">
           <a class="link link--nav" href="#projects">Mes Projets</a>
@@ -46,15 +47,14 @@
   <main>
     <!-- About -->
     <div class="about">
-      <h1 class="about__title">Bienvenue à vous, je suis<span class="about__name strong-text"> Alban Pirraud,</span>
+      <h1 class="about__title">Bienvenue à vous, je suis Alban Pirraud
       </h1>
-      <h2 class="about__role">Développeur web junior.</h2>
+      <h2 class="about__role strong-text">Développeur web junior.</h2>
       <p class="about__desc">
-        Consectetur neque sed quam molestiae consectetur nesciunt sit alias
-        Vitae libero perferendis reprehenderit optio veritatis Accusantium at
-        voluptatum cumque temporibus et Explicabo iste porro quis numquam
-        distinctio Repellendus adipisci nam perferendis amet eaque hic
-        Voluptates
+        Je m'appelle Alban Pirraud, développeur web junior basé en Isère. Diplômé de la formation Développeur Web
+        d'OpenClassrooms, j'ai acquis de solides compétences dans ce secteur d'activité. Polyvalent, j'interviens sur
+        des projets frontend autant que backend. N'hésitez pas à me contacter pour que nous réalisions ensemble vos
+        projets !
       </p>
 
       <div class="about__contact center">
@@ -65,22 +65,39 @@
     </div>
     <!-- Services -->
     <section class="section services center" id="services">
-      <h2 class="section__title">Services</h2>
+      <h2 class="section__title">Savoir Faire</h2>
       <ul class="services__list">
         <li class=" services__list-item ">
-          <div class="card">
+          <div class="service">
             <h3>Frontend</h3>
-            <p class="card__description">Réalisations de sites, debuggage et optimisation Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Quod eaque officiis repudiandae neque, ducimus earum ea veniam iusto.
-              Veniam, quas quia! Ratione est facere laudantium nemo modi necessitatibus corporis aspernatur.</p>
+            <ul class="service__description">
+              <li>Réalisation de sites web</li>
+              <li>Mise en place du SEO</li>
+              <li>Debuggage [&] Accessiibilité</li>
+            </ul>
+            <ul class="service__stack">
+              <li><img src="./assets/images/logos/icons/js.svg" alt="logo javascript"></li>
+              <li><img src="./assets/images/logos/icons/react.svg" alt="logo react"></li>
+              <li><img src="./assets/images/logos/icons/html.svg" alt="html logo"></li>
+              <li><img src="./assets/images/logos/icons/css.svg" alt="logo css"></li>
+              <li><img src="./assets/images/logos/icons/sass.svg" alt="logo sass"></li>
+            </ul>
           </div>
         </li>
         <li class=" services__list-item ">
-          <div class="card">
+          <div class="service">
             <h3>Backend</h3>
-            <p class="card__description">Réalisations de sites, debuggage et optimisation Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. In perspiciatis fugiat et neque consequatur ad, incidunt deserunt tempore ab
-              tenetur. Est doloremque dolorem in corporis facilis voluptatem similique, quis corrupti.</p>
+            <ul class="service__description">
+              <li>Création d'APIs</li>
+              <li>Gestion des données</li>
+              <li>Gestion de la sécurité web</li>
+            </ul>
+            <ul class="service__stack">
+              <li><img src="./assets/images/logos/icons/js.svg" alt="logo javascript"></li>
+              <li><img src="./assets/images/logos/icons/nodejs.svg" alt="logo nodejs"></li>
+              <li><img src="./assets/images/logos/icons/expressjs.svg" alt="expressjs logo"></li>
+              <li><img src="./assets/images/logos/icons/mongodb.svg" alt="logo mongodb"></li>
+            </ul>
           </div>
         </li>
       </ul>
@@ -89,69 +106,20 @@
     <section id="projects" class="section projects center">
       <h2 class="section__title">Projets</h2>
 
-      <div class="card__grid">
-        <div class="card">
-          <h3>Project 1</h3>
-          <p class="card__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="card__stack">
-            <li class="card__stack-item">SASS</li>
-            <li class="card__stack-item">TypeScript</li>
-            <li class="card__stack-item">React</li>
-          </ul>
+      <div class="projects__grid">
+        <a href="https://github.com/Arripal/Kasa">
+          <div class="project kasa">
+            <article class="project__description ">
+              description
+            </article>
+          </div>
 
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="#" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
+        </a>
+        <a href="https://github.com/Arripal/Mon-vieux-Grimoire">
+          <div class="project grimoire">
+          </div>
+        </a>
 
-        <div class="card">
-          <h3>Project 2</h3>
-          <p class="card__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="card__stack">
-            <li class="card__stack-item">SASS</li>
-            <li class="card__stack-item">TypeScript</li>
-            <li class="card__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="#" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-
-        <div class="card">
-          <h3>Project 3</h3>
-          <p class="card__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod
-            unde beatae Quis
-          </p>
-          <ul class="card__stack">
-            <li class="card__stack-item">SASS</li>
-            <li class="card__stack-item">TypeScript</li>
-            <li class="card__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
       </div>
     </section>
 
