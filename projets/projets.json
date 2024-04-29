@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Sophie Bluel",
+		"description": "Grâce à ce projet, j'ai pu mettre en pratique mes compétences en Javascript et apprendre ce qu'est le DOM et comment le manipuler. ",
+		"technologies": [
+			"/assets/images/logos/icons/js.svg",
+			"/assets/images/logos/icons/html.svg",
+			"/assets/images/logos/icons/css.svg"
+		],
+		"image": "/assets/images/SophieBluel.webp",
+		"link": "https://github.com/Arripal/Sophie-Bluel"
+	},
+	{
+		"name": "Kasa",
+		"description": "Développement d'une application web complète, j'ai pu aiguiser mes compétences frontend et apprendre la librairie React.",
+		"technologies": [
+			"/assets/images/logos/icons/react.svg",
+			"/assets/images/logos/icons/sass.svg"
+		],
+		"image": "/assets/images/Kasa.PNG",
+		"link": "https://github.com/Arripal/Kasa"
+	},
+	{
+		"name": "Mon vieux Grimoire",
+		"description": "Mise en place du backend, j'ai pu apprendre le fonctionnement d'une application côté serveur et comment intéragir avec une base de données.",
+		"technologies": [
+			"/assets/images/logos/icons/nodejs.svg",
+			"/assets/images/logos/icons/expressjs.svg",
+			"/assets/images/logos/icons/mongodb.svg"
+		],
+		"image": "/assets/images/Grimoire.PNG",
+		"link": "https://github.com/Arripal/Mon-vieux-Grimoire"
+	}
+]

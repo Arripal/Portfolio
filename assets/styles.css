@@ -215,7 +215,7 @@ main {
 	justify-content: center;
 	flex-direction: column;
 	min-height: 600px;
-	margin: 3em 0;
+	margin: 5em 0;
 }
 
 .section__title {
@@ -270,36 +270,66 @@ main {
 	margin-right: 1em;
 }
 
-.projects__grid {
+.projects__list {
+	flex-wrap: wrap;
+}
+
+.projects__list .list__item {
+	margin-bottom: 50px;
+}
+
+.project__description {
 	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	justify-content: space-between;
-	grid-gap: 2em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #23283e;
+	background: var(--clr-bg);
+	opacity: 0.8;
+}
+
+.project__description p {
+	color: var(--clr-btn);
+}
+
+.project__description .stack {
+	margin: 0 auto;
+	width: 50%;
+	justify-content: center;
+}
+
+.project__description .stack li {
+	padding: 0 1em;
 }
 
 .project {
-	border-radius: 10px;
-	background-repeat: no-repeat;
+	position: relative;
+	background-position: top;
 	background-size: cover;
-	max-width: 500px;
-	width: 500px;
-	height: 300px;
-	cursor: pointer;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
 }
-.project__description {
-	opacity: 0;
-	height: inherit;
-	background-color: red;
-}
-.project__description:hover {
-	opacity: 1;
-}
+
 .kasa {
 	background-image: url('./images/Kasa.PNG');
 }
 .grimoire {
 	background-image: url('./images/Grimoire.PNG');
+}
+
+.card {
+	height: 100%;
+	width: 100%;
+	height: 425px;
+	box-shadow: var(--shadow);
+	transition: transform 0.2s linear;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card:hover {
+	transform: translateY(-7px);
 }
 
 .service {
@@ -309,20 +339,10 @@ main {
 	padding: 2.5em 2em;
 	margin: 0 auto;
 	text-align: center;
-	box-shadow: var(--shadow);
-	transition: transform 0.2s linear;
-	border-radius: 10px;
-	height: 100%;
-	width: 550px;
-	height: 425px;
 }
 
 .service h3 {
 	color: var(--clr-fg-alt-bis);
-}
-
-.service:hover {
-	transform: translateY(-7px);
 }
 
 .service__description {
@@ -335,37 +355,27 @@ main {
 	text-align: left;
 }
 
-.service__stack {
+.stack {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.service__stack li {
+.stack li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.card__stack-item {
-	margin: 0.5em;
-	font-weight: 500;
-	font-size: 0.8rem;
-	color: var(--clr-fg-alt);
-}
 
-.card .link--icon {
-	margin-left: 0.5em;
-}
-
-.services__list {
+.list {
 	margin-top: 5em;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
-.services__list-item {
-	max-width: 500px;
+.list__item {
+	width: 500px;
 }
 
 .contact {
