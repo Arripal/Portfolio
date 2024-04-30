@@ -17,7 +17,7 @@
   <header class="header center">
     <!-- Remplacer par logo ou initials stylisés -->
     <h3>
-      <a href="https://github.com/Arripal" class="link strong-text header__link">Accueil</a>
+      <a href="https://github.com/Arripal" class="link strong-text header__link">A.Pirraud</a>
     </h3>
 
     <nav class="nav center">
@@ -47,65 +47,18 @@
   <main>
     <!-- About -->
     <div class="about">
-      <h1 class="about__title">Bienvenue à vous, je suis Alban Pirraud
-      </h1>
-      <h2 class="about__role strong-text">Développeur web junior.</h2>
-      <p class="about__desc">
-        Je m'appelle Alban Pirraud, développeur web junior basé en Isère. Diplômé de la formation Développeur Web
-        d'OpenClassrooms, j'ai acquis de solides compétences dans ce secteur d'activité. Polyvalent, j'interviens sur
-        des projets frontend autant que backend. N'hésitez pas à me contacter pour que nous réalisions ensemble vos
-        projets !
-      </p>
 
-      <div class="about__contact center">
-        <a href="#contact">
-          <span class="btn btn--outline">Me contacter</span>
-        </a>
-      </div>
     </div>
     <!-- Services -->
     <section class="section center" id="services">
       <h2 class="section__title">Savoir Faire</h2>
-      <ul class="list">
-        <li class="list__item ">
-          <div class="service card">
-            <h3>Frontend</h3>
-            <ul class="service__description">
-              <li>Réalisation de sites web</li>
-              <li>Mise en place du SEO</li>
-              <li>Debuggage [&] Accessiibilité</li>
-            </ul>
-            <ul class="stack">
-              <li><img src="./assets/images/logos/icons/js.svg" alt="logo javascript"></li>
-              <li><img src="./assets/images/logos/icons/react.svg" alt="logo react"></li>
-              <li><img src="./assets/images/logos/icons/html.svg" alt="html logo"></li>
-              <li><img src="./assets/images/logos/icons/css.svg" alt="logo css"></li>
-              <li><img src="./assets/images/logos/icons/sass.svg" alt="logo sass"></li>
-            </ul>
-          </div>
-        </li>
-        <li class="list__item ">
-          <div class="service card">
-            <h3>Backend</h3>
-            <ul class="service__description">
-              <li>Création d'APIs</li>
-              <li>Gestion des données</li>
-              <li>Gestion de la sécurité web</li>
-            </ul>
-            <ul class="stack">
-              <li><img src="./assets/images/logos/icons/js.svg" alt="logo javascript"></li>
-              <li><img src="./assets/images/logos/icons/nodejs.svg" alt="logo nodejs"></li>
-              <li><img src="./assets/images/logos/icons/expressjs.svg" alt="expressjs logo"></li>
-              <li><img src="./assets/images/logos/icons/mongodb.svg" alt="logo mongodb"></li>
-            </ul>
-          </div>
-        </li>
+      <ul class="list services__list">
       </ul>
     </section>
     <!-- Projects -->
-    <section id="projects" class="section center">
+    <section id="projects" class="section ">
       <h2 class="section__title">Projets</h2>
-      <ul class="list projects__list">
+      <ul class="projects__list">
       </ul>
     </section>
     <!-- Contact -->
@@ -114,6 +67,15 @@
       <a href="mailto:albanp.dev@gmail.com">
         <span class="btn btn--outline">Email</span>
       </a>
+      <h4>Via mes réseaux sociaux</h4>
+      <ul class="socials">
+        <li class="nav__list-item"> <a href="https://github.com/Arripal" aria-label="twitter" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-twitter"></i>
+          </a></li>
+        <li class="nav__list-item"> <a href="https://github.com/Arripal" aria-label="linkedin" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+          </a></li>
+      </ul>
     </section>
   </main>
   <footer class="footer">
@@ -128,6 +90,9 @@
       </a>
     </div>
   </div>
+  <script type="module" src="informations.js"></script>
+  <script type="module" src="competences.js"></script>
+  <script type="module" src="projets.js"></script>
   <script src="index.js" type="module"></script>
 </body>
 

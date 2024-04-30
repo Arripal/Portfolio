@@ -7,7 +7,7 @@
 			"/assets/images/logos/icons/html.svg",
 			"/assets/images/logos/icons/css.svg"
 		],
-		"image": "/assets/images/SophieBluel.webp",
+		"image": "/assets/images/sophie-bluel.webp",
 		"link": "https://github.com/Arripal/Sophie-Bluel"
 	},
 	{
@@ -17,7 +17,8 @@
 			"/assets/images/logos/icons/react.svg",
 			"/assets/images/logos/icons/sass.svg"
 		],
-		"image": "/assets/images/Kasa.PNG",
+
+		"image": "/assets/images/Kasa.webp",
 		"link": "https://github.com/Arripal/Kasa"
 	},
 	{
@@ -28,6 +29,7 @@
 			"/assets/images/logos/icons/expressjs.svg",
 			"/assets/images/logos/icons/mongodb.svg"
 		],
+
 		"image": "/assets/images/Grimoire.PNG",
 		"link": "https://github.com/Arripal/Mon-vieux-Grimoire"
 	}
