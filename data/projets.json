@@ -1,29 +1,61 @@
 [
 	{
 		"name": "Sophie Bluel",
-		"description": "Grâce à ce projet, j'ai pu mettre en pratique mes compétences en Javascript et apprendre ce qu'est le DOM et comment le manipuler. ",
+		"description": [
+			{
+				"competences": "Ce projet m'a aidé à apprendre Javascript ainsi que les fondamentaux de la programmation et les appliquer dans une application web.",
+				"problematiques": "Afficher et récupérer les informations dynamiquement a été un vrai défi que j'ai su relever en manipulant le DOM via Javascript"
+			}
+		],
 		"technologies": [
 			"/assets/images/logos/icons/js.svg",
 			"/assets/images/logos/icons/html.svg",
 			"/assets/images/logos/icons/css.svg"
 		],
 		"image": "/assets/images/sophie-bluel.webp",
-		"link": "https://github.com/Arripal/Sophie-Bluel"
+		"sourceCode": "https://github.com/Arripal/Sophie-Bluel"
+	},
+	{
+		"name": "Booki",
+		"description": [
+			{
+				"competences": "J'ai appris à utiliser les pseudos-langages HTML et CSS mais aussi à développer une interface utilisateur statique",
+				"problematiques": "Grâce a Flexbox, j'ai pu rendre l'application responsive pour les différents types d'appareils"
+			}
+		],
+		"technologies": [
+			"/assets/images/logos/icons/html.svg",
+			"/assets/images/logos/icons/css.svg"
+		],
+		"image": "/assets/images/Capture.PNG",
+		"sourceCode": "https://github.com/Arripal/Booki",
+		"webSite": "https://arripal.github.io/Booki/"
 	},
 	{
 		"name": "Kasa",
-		"description": "Développement d'une application web complète, j'ai pu aiguiser mes compétences frontend et apprendre la librairie React.",
+		"description": [
+			{
+				"competences": "Développement d'une application web complète, j'ai pu aiguiser mes compétences frontend et apprendre la librairie React.",
+				"problematiques": "Hello World"
+			}
+		],
 		"technologies": [
 			"/assets/images/logos/icons/react.svg",
 			"/assets/images/logos/icons/sass.svg"
 		],
 
 		"image": "/assets/images/Kasa.webp",
-		"link": "https://github.com/Arripal/Kasa"
+		"sourceCode": "https://github.com/Arripal/Kasa",
+		"webSite": "https://kasa-nu-ten.vercel.app"
 	},
 	{
 		"name": "Mon vieux Grimoire",
-		"description": "Mise en place du backend, j'ai pu apprendre le fonctionnement d'une application côté serveur et comment intéragir avec une base de données.",
+		"description": [
+			{
+				"competences": "Mise en place du backend, j'ai pu apprendre le fonctionnement d'une application côté serveur et comment intéragir avec une base de données.",
+				"problematiques": "Hello World"
+			}
+		],
 		"technologies": [
 			"/assets/images/logos/icons/nodejs.svg",
 			"/assets/images/logos/icons/expressjs.svg",
@@ -31,6 +63,6 @@
 		],
 
 		"image": "/assets/images/Grimoire.PNG",
-		"link": "https://github.com/Arripal/Mon-vieux-Grimoire"
+		"sourceCode": "https://github.com/Arripal/Mon-vieux-Grimoire"
 	}
 ]
