@@ -3,20 +3,20 @@ const informations = await fetch(
 ).then((response) => response.json());
 
 const pageInfos = (informations) => {
-	const a_propos = document.querySelector('.about');
+	const about = document.querySelector('.about');
 
 	const title = document.createElement('h1');
 	title.classList.add('about__title');
 	title.innerText = `${informations.title}`;
 
-	const metier = document.createElement('h2');
-	metier.classList.add('about__role');
-	metier.classList.add('strong-text');
-	metier.innerText = `${informations.metier}`;
+	const job = document.createElement('h2');
+	job.classList.add('about__role');
+	job.classList.add('strong-text');
+	job.innerText = `${informations.job}`;
 
-	const paragraphe = document.createElement('p');
-	paragraphe.classList.add('about__desc');
-	paragraphe.innerText = `${informations.description}`;
+	const description = document.createElement('p');
+	description.classList.add('about__desc');
+	description.innerText = `${informations.description}`;
 
 	const div = document.createElement('div');
 	div.classList.add('about__contact');
@@ -34,10 +34,10 @@ const pageInfos = (informations) => {
 	link.appendChild(span);
 	div.appendChild(link);
 
-	a_propos.append(title);
-	a_propos.append(metier);
-	a_propos.append(paragraphe);
-	a_propos.append(div);
+	about.append(title);
+	about.append(job);
+	about.append(description);
+	about.append(div);
 };
 
 pageInfos(informations[0]);
