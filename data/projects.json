@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Sophie Bluel",
+		"description": "Ce projet m'a aidé à apprendre Javascript ainsi que les fondamentaux de la programmation et les appliquer dans une application web.J'ai pu améliorer mes compétences frontend et apprendre la librairie React.",
+
+		"technologies": [
+			"/assets/images/logos/icons/js.svg",
+			"/assets/images/logos/icons/html.svg",
+			"/assets/images/logos/icons/css.svg"
+		],
+		"image": "/assets/images/sophie-bluel.webp",
+		"sourceCode": "https://github.com/Arripal/Sophie-Bluel"
+	},
+	{
+		"name": "Booki",
+		"description": "J'ai appris à utiliser les technologies HTML et CSS mais aussi à développer une interface utilisateur statique et responsive.",
+
+		"technologies": [
+			"/assets/images/logos/icons/html.svg",
+			"/assets/images/logos/icons/css.svg"
+		],
+		"image": "/assets/images/booki.png",
+		"sourceCode": "https://github.com/Arripal/Booki",
+		"webSite": "https://arripal.github.io/Booki/"
+	},
+	{
+		"name": "Kasa",
+		"description": "Développement de l'interface d'une application de location immobilière. J'ai pu améliorer mes compétences frontend et apprendre la librairie React.",
+
+		"technologies": [
+			"/assets/images/logos/icons/react.svg",
+			"/assets/images/logos/icons/sass.svg"
+		],
+
+		"image": "/assets/images/Kasa.webp",
+		"sourceCode": "https://github.com/Arripal/Kasa",
+		"webSite": "https://kasa-nu-ten.vercel.app"
+	},
+	{
+		"name": "Mon vieux Grimoire",
+		"description": "Mise en place du backend, j'ai pu apprendre le fonctionnement d'une application côté serveur et comment intéragir avec une base de données.",
+
+		"technologies": [
+			"/assets/images/logos/icons/nodejs.svg",
+			"/assets/images/logos/icons/expressjs.svg",
+			"/assets/images/logos/icons/mongodb.svg"
+		],
+
+		"image": "/assets/images/mon-vieux-grimoire.png",
+		"sourceCode": "https://github.com/Arripal/Mon-vieux-Grimoire"
+	}
+]

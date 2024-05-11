@@ -2,13 +2,111 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alban Pirraud - Web Dev</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <meta property="og:site_name" content="Alban Pirraud - Développeur Web">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arripal.github.io/Portfolio">
+  <meta property="og:title" content="Alban Pirraud - Développeur Web ">
+  <meta property="og:description"
+    content="Développeur web junior basé en Isère, je réalise tout vos travaux,  aussi bien frontend que backend. N'hésitez pas à me contacter pour toute demande !">
+  <meta name="twitter:card" content="Alban Pirraud, Développeur Web situé en Isère.">
+  <meta name="twitter:title" content="Alban Pirraud - Développeur Web">
+  <meta name="twitter:description"
+    content="Développeur web junior basé en Isère, je réalise tout vos travaux,  aussi bien frontend que backend. N'hésitez pas à me contacter pour toute demande !">
+  <meta name="twitter:url" content="https://arripal.github.io/Portfolio">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <title>Alban Pirraud - Développeur Web </title>
 </head>
 
-<body>
+<body class="light" id="top">
+  <header class="header center">
+    <!-- Remplacer par logo ou initials stylisés -->
+    <h3>
+      <a href="https://github.com/Arripal" class="link strong-text header__link">A.Pirraud</a>
+    </h3>
 
+    <nav class="nav center">
+      <ul class="nav__list center">
+
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#services">Savoir Faire</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Mes Projets</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+        <li class="nav__list-item"> <a href="https://github.com/Arripal" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a></li>
+      </ul>
+
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about">
+
+    </div>
+    <!-- Services -->
+    <section class="section center" id="services">
+      <h2 class="section__title">Savoir Faire</h2>
+      <ul class="list services__list">
+      </ul>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="section ">
+      <h2 class="section__title">Projets</h2>
+      <ul class="projects__list">
+      </ul>
+    </section>
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:albanp.dev@gmail.com">
+        <span class="btn btn--outline">Email</span>
+      </a>
+      <h3>Via mes réseaux sociaux</h3>
+      <ul class="socials">
+        <li class="nav__list-item"> <a href="https://twitter.com/AlbanpDev" aria-label="twitter"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-twitter"></i>
+          </a></li>
+        <li class="nav__list-item"> <a href="www.linkedin.com/in/alban-pirraud-8128b0308" aria-label="linkedin"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+          </a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/Arripal" class="link footer__link">
+      Créé par Alban Pirraud
+    </a>
+  </footer>
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+  <script type="module" src="informations.js"></script>
+  <script type="module" src="skills.js"></script>
+  <script type="module" src="projects.js"></script>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>

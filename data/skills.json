@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Frontend",
+		"services": [
+			"Réalisation de sites web",
+			"Mise en place du SEO",
+			"Debuggage & Accessibilité"
+		],
+		"technologies": [
+			"/assets/images/logos/icons/js.svg",
+			"/assets/images/logos/icons/react.svg",
+			"/assets/images/logos/icons/html.svg",
+			"/assets/images/logos/icons/css.svg",
+			"/assets/images/logos/icons/sass.svg"
+		]
+	},
+	{
+		"name": "Backend",
+		"services": [
+			"Création d'APIs",
+			"Gestion des données",
+			"Gestion de la sécurité web"
+		],
+		"technologies": [
+			"/assets/images/logos/icons/js.svg",
+			"/assets/images/logos/icons/nodejs.svg",
+			"/assets/images/logos/icons/expressjs.svg",
+			"/assets/images/logos/icons/mongodb.svg"
+		]
+	}
+]
