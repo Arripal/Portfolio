@@ -1,19 +1,7 @@
 [
 	{
-		"name": "Sophie Bluel",
-		"description": "Ce projet m'a aidé à apprendre Javascript ainsi que les fondamentaux de la programmation et les appliquer dans une application web.J'ai pu améliorer mes compétences frontend et apprendre la librairie React.",
-
-		"technologies": [
-			"/assets/images/logos/icons/js.svg",
-			"/assets/images/logos/icons/html.svg",
-			"/assets/images/logos/icons/css.svg"
-		],
-		"image": "/assets/images/sophie-bluel.webp",
-		"sourceCode": "https://github.com/Arripal/Sophie-Bluel"
-	},
-	{
 		"name": "Booki",
-		"description": "J'ai appris à utiliser les technologies HTML et CSS mais aussi à développer une interface utilisateur statique et responsive.",
+		"description": "Développement de la page d'accueil de l'agence de voyage Booki. J'ai appris à utiliser les technologies HTML et CSS mais aussi à développer une interface utilisateur statique et responsive principalement grâce à Flexbox.",
 
 		"technologies": [
 			"/assets/images/logos/icons/html.svg",
@@ -24,8 +12,21 @@
 		"webSite": "https://arripal.github.io/Booki/"
 	},
 	{
+		"name": "Sophie Bluel",
+		"description": "Développement du portfolio d'une architecte d'intérieur. Ma mission consistait a dynamiser le portfolio en récupérant les projets depuis l'API fournie, puis grâce à Javascript, manipuler le DOM pour les afficher.  J'ai également du  traiter les informations provenant d'un formulaire de connexion.",
+
+		"technologies": [
+			"/assets/images/logos/icons/js.svg",
+			"/assets/images/logos/icons/html.svg",
+			"/assets/images/logos/icons/css.svg"
+		],
+		"image": "/assets/images/sophie-bluel.webp",
+		"sourceCode": "https://github.com/Arripal/Sophie-Bluel"
+	},
+
+	{
 		"name": "Kasa",
-		"description": "Développement de l'interface d'une application de location immobilière. J'ai pu améliorer mes compétences frontend et apprendre la librairie React.",
+		"description": "Développement complet de l'application web de l'agence de location immobilière Kasa. J'ai appris a utiliser le framework React ( composants React, Hooks, etc.). De plus, j'ai pu améliorer mes compétences CSS  en intégrant des animations dans certains composants de l'application.",
 
 		"technologies": [
 			"/assets/images/logos/icons/react.svg",
@@ -38,7 +39,7 @@
 	},
 	{
 		"name": "Mon vieux Grimoire",
-		"description": "Mise en place du backend, j'ai pu apprendre le fonctionnement d'une application côté serveur et comment intéragir avec une base de données.",
+		"description": "Développement du backend de la plateforme Mon Vieux Grimoire. Grâce à la technologie Nodejs, j'ai développé l'API backend, mis en place un système d'authentification, sécurisé l'application et appris un intéragir avec une base de données NoSQL.  ",
 
 		"technologies": [
 			"/assets/images/logos/icons/nodejs.svg",
