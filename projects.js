@@ -63,7 +63,7 @@ const createProjetCard = (project) => {
 	return listItem;
 };
 
-const projects = await fetch('http://localhost:5501/data/projects.json').then(
+const projects = await fetch('https://arripal.github.io/Portfolio/data/projects.json').then(
 	(response) => response.json()
 );
 
