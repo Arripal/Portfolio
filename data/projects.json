@@ -7,7 +7,7 @@
 			"/assets/images/logos/icons/html.svg",
 			"/assets/images/logos/icons/css.svg"
 		],
-		"image": "/assets/images/booki.png",
+		"image": "/assets/images/Booki.webp",
 		"sourceCode": "https://github.com/Arripal/Booki",
 		"webSite": "https://arripal.github.io/Booki/"
 	},
@@ -20,7 +20,7 @@
 			"/assets/images/logos/icons/html.svg",
 			"/assets/images/logos/icons/css.svg"
 		],
-		"image": "/assets/images/sophie-bluel.webp",
+		"image": "/assets/images/sophie-bluel.jpg",
 		"sourceCode": "https://github.com/Arripal/Sophie-Bluel"
 	},
 
@@ -39,7 +39,7 @@
 	},
 	{
 		"name": "Mon vieux Grimoire",
-		"description": "Développement du backend de la plateforme Mon Vieux Grimoire. Grâce à la technologie Nodejs, j'ai développé l'API backend, mis en place un système d'authentification, sécurisé l'application et appris un intéragir avec une base de données NoSQL.  ",
+		"description": "Développement du backend de la plateforme Mon Vieux Grimoire. J'ai développé l'API backend, mis en place un système d'authentification, sécurisé l'application et appris a intéragir avec une base de données NoSQL.  ",
 
 		"technologies": [
 			"/assets/images/logos/icons/nodejs.svg",
