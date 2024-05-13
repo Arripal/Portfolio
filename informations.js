@@ -1,5 +1,5 @@
 const informations = await fetch(
-	'https://arripal.github.io/Portfolio/informations.json'
+	'https://portfolio-zeta-sandy-33.vercel.app/data/informations.json'
 ).then((response) => response.json());
 
 const createPageInfos = (informations) => {
