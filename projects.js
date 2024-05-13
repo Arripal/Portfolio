@@ -63,7 +63,7 @@ const createProjetCard = (project) => {
 	return listItem;
 };
 
-const projects = await fetch('https://arripal.github.io/Portfolio/data/projects.json').then(
+const projects = await fetch('https://portfolio-zeta-sandy-33.vercel.app/data/projects.json').then(
 	(response) => response.json()
 );
 
