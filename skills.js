@@ -50,7 +50,7 @@ const skillCard = (skills) => {
 	return li;
 };
 
-const skills = await fetch('http://localhost:5501/data/skills.json').then(
+const skills = await fetch('https://arripal.github.io/Portfolio/data/skills.json').then(
 	(response) => response.json()
 );
 
