@@ -1,21 +1,21 @@
 const body = document.body;
-const btnHamburger = document.querySelector('.fa-bars');
+const btnMenu = document.querySelector('.fa-bars');
 
 const displayList = () => {
 	const navUl = document.querySelector('.nav__list');
 
-	if (btnHamburger.classList.contains('fa-bars')) {
-		btnHamburger.classList.remove('fa-bars');
-		btnHamburger.classList.add('fa-times');
+	if (btnMenu.classList.contains('fa-bars')) {
+		btnMenu.classList.remove('fa-bars');
+		btnMenu.classList.add('fa-times');
 		navUl.classList.add('display-nav-list');
 	} else {
-		btnHamburger.classList.remove('fa-times');
-		btnHamburger.classList.add('fa-bars');
+		btnMenu.classList.remove('fa-times');
+		btnMenu.classList.add('fa-bars');
 		navUl.classList.remove('display-nav-list');
 	}
 };
 
-btnHamburger.addEventListener('click', displayList);
+btnMenu.addEventListener('click', displayList);
 
 const scrollUp = () => {
 	const btnScrollTop = document.querySelector('.scroll-top');
