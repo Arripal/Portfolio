@@ -500,11 +500,8 @@ main {
 		margin: 2.5em 0;
 	}
 
-	.list {
-		margin-top: 1em;
-		align-items: center;
-		justify-content: space-between;
-		flex-direction: column;
+	.card {
+		height: 320px;
 	}
 
 	.projects__list .list__item {
@@ -513,9 +510,6 @@ main {
 
 	#projects {
 		margin-top: 1em;
-	}
-	.project {
-		height: 320px;
 	}
 
 	.project__description {
@@ -529,13 +523,12 @@ main {
 		font-size: 0.9rem;
 	}
 
-	.project__description .stack {
+	.stack {
 		margin: 0 auto;
-		width: 70%;
-		justify-content: center;
+		width: 100%;
+		justify-content: space-between;
 	}
-
-	.project__description .stack li img {
+	.stack li img {
 		width: 30px;
 		height: 30px;
 	}
@@ -544,8 +537,8 @@ main {
 		width: 100%;
 	}
 
-	.services__list .list__item:nth-of-type(1) {
-		margin-bottom: 3em;
+	.service__description li {
+		font-size: 1.1rem;
 	}
 	.list__item {
 		width: 350px;
@@ -574,6 +567,16 @@ main {
 		margin-top: 1em;
 	}
 	.projects__list .list__item {
+		margin-bottom: 3em;
+	}
+
+	.list {
+		margin-top: 1em;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.services__list .list__item:nth-of-type(1) {
 		margin-bottom: 3em;
 	}
 }

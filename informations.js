@@ -2,7 +2,7 @@ const informations = await fetch(
 	'http://localhost:5501/data/informations.json'
 ).then((response) => response.json());
 
-const pageInfos = (informations) => {
+const createPageInfos = (informations) => {
 	const about = document.querySelector('.about');
 
 	const title = document.createElement('h1');
@@ -40,4 +40,4 @@ const pageInfos = (informations) => {
 	about.append(div);
 };
 
-pageInfos(informations[0]);
+createPageInfos(informations[0]);

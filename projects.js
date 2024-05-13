@@ -1,9 +1,5 @@
 import { createTechnologiesList } from './skills.js';
 
-const projects = await fetch('http://localhost:5501/data/projects.json').then(
-	(response) => response.json()
-);
-
 const createListItem = (image) => {
 	const li = document.createElement('li');
 	li.classList.add('list__item');
@@ -66,6 +62,10 @@ const createProjetCard = (project) => {
 	listItem.appendChild(article);
 	return listItem;
 };
+
+const projects = await fetch('http://localhost:5501/data/projects.json').then(
+	(response) => response.json()
+);
 
 projects.map((project) => {
 	const liste = document.querySelector('.projects__list');

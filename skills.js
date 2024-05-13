@@ -1,7 +1,3 @@
-const skills = await fetch('http://localhost:5501/data/skills.json').then(
-	(response) => response.json()
-);
-
 export const createTechnologiesList = (technologies) => {
 	const technosList = document.createElement('ul');
 	technosList.classList.add('stack');
@@ -53,6 +49,10 @@ const skillCard = (skills) => {
 	li.appendChild(div);
 	return li;
 };
+
+const skills = await fetch('http://localhost:5501/data/skills.json').then(
+	(response) => response.json()
+);
 
 skills.map((skill) => {
 	const servicesList = document.querySelector('.services__list');
