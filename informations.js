@@ -1,5 +1,5 @@
 const informations = await fetch(
-	'http://localhost:5501/data/informations.json'
+	'https://arripal.github.io/Portfolio/informations.json'
 ).then((response) => response.json());
 
 const createPageInfos = (informations) => {
