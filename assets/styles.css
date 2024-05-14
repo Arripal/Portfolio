@@ -233,7 +233,7 @@ main {
 	margin-left: 1.5em;
 }
 
-.nav__hamburger {
+.nav__menu {
 	display: none;
 	width: 1em;
 }
@@ -491,7 +491,7 @@ main {
 		margin: 0.5em 0;
 	}
 
-	.nav__hamburger {
+	.nav__menu {
 		display: flex;
 		margin-left: 0.8em;
 	}
