@@ -1,16 +1,5 @@
 [
-	{
-		"name": "Booki",
-		"description": "Développement de la page d'accueil de l'agence de voyage Booki. J'ai appris à utiliser les technologies HTML et CSS mais aussi à développer une interface utilisateur statique et responsive principalement grâce à Flexbox.",
-
-		"technologies": [
-			"/assets/images/logos/icons/html.svg",
-			"/assets/images/logos/icons/css.svg"
-		],
-		"image": "/assets/images/Booki.webp",
-		"sourceCode": "https://github.com/Arripal/Booki",
-		"webSite": "https://arripal.github.io/Booki/"
-	},
+	
 	{
 		"name": "Sophie Bluel",
 		"description": "Développement du portfolio d'une architecte d'intérieur. Ma mission consistait a dynamiser le portfolio en récupérant les projets depuis l'API fournie, puis grâce à Javascript, manipuler le DOM pour les afficher.  J'ai également du  traiter les informations provenant d'un formulaire de connexion.",
